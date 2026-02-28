@@ -5,38 +5,215 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CycleSync - Privacy Policy</title>
 <style>
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 700px; margin: 2rem auto; padding: 1rem; line-height: 1.7; color: #333; }
-h1 { color: #8B5CF6; }
-h2 { color: #555; margin-top: 2rem; }
-.updated { color: #888; font-size: 0.9rem; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  color: #333;
+  background: #fafafa;
+  padding: 2rem 1rem;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+h1 { font-size: 1.8rem; color: #1a1a2e; margin-bottom: 0.2rem; }
+.subtitle { color: #888; font-size: 0.9rem; margin-bottom: 2rem; }
+h2 { font-size: 1.3rem; color: #1a1a2e; margin-top: 2.2rem; margin-bottom: 0.8rem; border-bottom: 2px solid #f0e6ff; padding-bottom: 0.4rem; }
+h3 { font-size: 1rem; color: #6d28d9; margin-top: 1.2rem; margin-bottom: 0.3rem; }
+p, li { font-size: 0.95rem; color: #444; margin-bottom: 0.6rem; }
+ul { margin: 0.5rem 0 1rem 1.5rem; }
+li { margin-bottom: 0.4rem; }
+a { color: #6d28d9; }
+.highlight-box {
+  background: #f8f4ff;
+  border-left: 4px solid #8B5CF6;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  margin: 1.2rem 0;
+}
+.highlight-box p { margin-bottom: 0; color: #4c1d95; font-weight: 500; }
+.faq { margin-top: 1.5rem; }
+.faq-item { margin-bottom: 1.5rem; }
+.faq-q {
+  font-weight: 600;
+  color: #1a1a2e;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.faq-q::before { content: "Q:"; color: #8B5CF6; font-weight: 700; min-width: 1.5rem; }
+.faq-a { margin-top: 0.4rem; padding-left: 2rem; color: #555; }
+.footer {
+  margin-top: 2.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid #eee;
+  font-size: 0.85rem;
+  color: #999;
+}
+.badge {
+  display: inline-block;
+  background: #f0fdf4;
+  color: #15803d;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  border: 1px solid #bbf7d0;
+  margin-bottom: 1rem;
+}
 </style>
 </head>
 <body>
-<h1>CycleSync — Privacy Policy</h1>
-<p class="updated">Last updated: February 28, 2026</p>
+<div class="container">
 
-<h2>Your Data Stays on Your Device</h2>
-<p>CycleSync stores all your data — symptom logs, cycle data, and preferences — <strong>locally on your device only</strong>. Nothing is sent to any server, cloud service, or third party.</p>
+<h1>Privacy Policy</h1>
+<p style="font-size:1.1rem; color:#8B5CF6; font-weight:600; margin-bottom:0.2rem;">CycleSync</p>
+<p class="subtitle">Last updated: February 28, 2026</p>
+<span class="badge">🔒 100% Offline — Zero Data Collection</span>
 
-<h2>No Data Collection</h2>
-<p>We do not collect, transmit, store, or share any personal data, health data, or usage analytics. Period.</p>
+<div class="highlight-box">
+  <p>CycleSync was built with one principle: your cycle data is yours alone. We have no servers, no accounts, no analytics. Everything stays on your device.</p>
+</div>
 
-<h2>No Accounts Required</h2>
-<p>CycleSync does not require you to create an account, sign in, or provide any personal information to use the app.</p>
+<h2>1. Overview</h2>
+<p>CycleSync is a menstrual cycle and symptom tracking app designed to help you understand your body's patterns. The app uses locally stored data and on-device algorithms to predict cycle phases and provide insights.</p>
+<p>This privacy policy explains what data the app handles, how it's stored, and your rights regarding that data.</p>
 
-<h2>No Third-Party Services</h2>
-<p>The app does not integrate with any third-party analytics, advertising, or tracking services.</p>
+<h2>2. What Data Does the App Store?</h2>
+<p>CycleSync stores the following information that you choose to enter:</p>
+<ul>
+  <li><strong>Daily symptom logs:</strong> energy level, mood, sleep quality, libido, appetite, skin condition, body symptoms, discharge, and free-text notes</li>
+  <li><strong>Cycle data:</strong> estimated cycle length, phase predictions, and historical patterns</li>
+  <li><strong>App preferences:</strong> display settings and notification preferences</li>
+</ul>
+<p>All of this data is stored <strong>exclusively on your device</strong> using Apple's on-device storage (SwiftData). It never leaves your phone.</p>
 
-<h2>Health Data</h2>
-<p>CycleSync allows you to log symptoms and cycle information. This data is sensitive and personal. It is stored exclusively in your device's local storage and is never accessible to us or anyone else. If you delete the app, all data is permanently removed.</p>
+<h2>3. What Data Do We Collect?</h2>
+<div class="highlight-box">
+  <p>None. Absolutely zero. We do not collect, transmit, receive, or have access to any of your data.</p>
+</div>
+<p>Specifically, we do <strong>not</strong> collect:</p>
+<ul>
+  <li>Personal information (name, email, age, etc.)</li>
+  <li>Health or cycle data</li>
+  <li>Device identifiers or IP addresses</li>
+  <li>Usage analytics or behavioral data</li>
+  <li>Location data</li>
+  <li>Crash reports or diagnostics</li>
+</ul>
 
-<h2>Children's Privacy</h2>
-<p>CycleSync is not intended for use by children under 13. We do not knowingly collect any information from children.</p>
+<h2>4. Third-Party Services</h2>
+<p>CycleSync does not use or integrate with any third-party services, including:</p>
+<ul>
+  <li>No analytics platforms (Google Analytics, Mixpanel, etc.)</li>
+  <li>No advertising networks</li>
+  <li>No crash reporting tools</li>
+  <li>No social media SDKs</li>
+  <li>No cloud storage or sync services</li>
+</ul>
+<p>The app makes <strong>zero network requests</strong>. It works fully offline.</p>
 
-<h2>Changes to This Policy</h2>
-<p>If we update this policy, we will post the revised version here with an updated date.</p>
+<h2>5. Data Storage & Security</h2>
+<p>Your data is protected by your device's built-in security:</p>
+<ul>
+  <li>Data is stored in your device's local database (SwiftData/Core Data)</li>
+  <li>Protected by your device passcode, Face ID, or Touch ID</li>
+  <li>Encrypted at rest by iOS device encryption</li>
+  <li>Sandboxed — other apps cannot access CycleSync's data</li>
+</ul>
 
-<h2>Contact</h2>
-<p>Questions? Contact us at <a href="mailto:jolinebergsjo@gmail.com">jolinebergsjo@gmail.com</a></p>
+<h2>6. Data Retention & Deletion</h2>
+<p>Since all data is stored locally on your device:</p>
+<ul>
+  <li><strong>Deleting the app</strong> permanently removes all data</li>
+  <li><strong>Individual entries</strong> can be deleted within the app at any time</li>
+  <li>There are no backups on our end — we have no servers</li>
+  <li>If you use iCloud device backups, your app data may be included in those backups (managed by Apple, not by us)</li>
+</ul>
+
+<h2>7. Children's Privacy</h2>
+<p>CycleSync is not directed at children under 13. The app does not collect any information from any user, regardless of age. However, the app's content (menstrual cycle tracking) is designed for adolescents and adults.</p>
+
+<h2>8. Your Rights</h2>
+<p>Because we don't collect any data, traditional data rights (access, deletion, portability) are handled entirely on your device. You have full control:</p>
+<ul>
+  <li><strong>Access:</strong> All your data is visible to you in the app at all times</li>
+  <li><strong>Deletion:</strong> Delete individual entries or uninstall the app to remove everything</li>
+  <li><strong>Portability:</strong> Your data lives on your device and in your device backups</li>
+  <li><strong>No opt-out needed:</strong> There's nothing to opt out of — we collect nothing</li>
+</ul>
+
+<h2>9. Frequently Asked Questions</h2>
+<div class="faq">
+
+<div class="faq-item">
+  <div class="faq-q">Can you see my cycle data?</div>
+  <div class="faq-a">No. We have no servers, no database, and no way to access your data. Everything you enter stays on your phone and nowhere else.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">Does the app send data over the internet?</div>
+  <div class="faq-a">No. CycleSync makes zero network requests. It works completely offline. You could put your phone in airplane mode forever and the app would work exactly the same.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">What happens to my data if I delete the app?</div>
+  <div class="faq-a">It's gone permanently. Since we don't store anything on servers, deleting the app means all your symptom logs and cycle data are removed from your device. There is no way to recover it.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">Does the app use Apple HealthKit?</div>
+  <div class="faq-a">No. CycleSync does not integrate with HealthKit or any other Apple health frameworks. Your data stays entirely within the app.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">Is my data included in iCloud backups?</div>
+  <div class="faq-a">If you have iCloud backup enabled on your device, your app data may be included as part of your full device backup. This is managed by Apple and protected by your Apple ID. We have no access to these backups.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">Do you use any analytics or tracking?</div>
+  <div class="faq-a">No. We don't use Google Analytics, Firebase, Mixpanel, Facebook SDK, or any other analytics or tracking tool. We have zero insight into how you use the app.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">Will you ever start collecting data?</div>
+  <div class="faq-a">Privacy-first is a core design principle of CycleSync, not just a feature. If this ever changes (it won't), we would update this policy and require your explicit consent before any data collection.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">How does the prediction algorithm work without collecting data?</div>
+  <div class="faq-a">The cycle prediction runs entirely on your device using a Bayesian algorithm that learns from the data you've logged locally. No cloud computing, no AI servers — just math running on your phone.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">Is this app GDPR compliant?</div>
+  <div class="faq-a">Yes. Since we don't collect, process, or store any personal data, CycleSync is fully compliant with GDPR, CCPA, and other privacy regulations. There is simply no data to regulate.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">Who can I contact with questions?</div>
+  <div class="faq-a">You can reach us at <a href="mailto:jolinebergsjo@gmail.com">jolinebergsjo@gmail.com</a>. We're happy to answer any privacy-related questions.</div>
+</div>
+
+</div>
+
+<h2>10. Changes to This Policy</h2>
+<p>If we make changes to this privacy policy, we will update the "Last updated" date at the top and publish the revised version at this URL. For significant changes, we will also include a notice in the app.</p>
+
+<div class="footer">
+  <p>CycleSync is developed by Joline Bergsjö.</p>
+  <p>Contact: <a href="mailto:jolinebergsjo@gmail.com">jolinebergsjo@gmail.com</a></p>
+  <p>© 2026 CycleSync. All rights reserved.</p>
+</div>
+
+</div>
 </body>
 </html>
